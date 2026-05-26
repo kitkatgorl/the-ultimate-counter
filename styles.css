@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    margin: 0;
+
+    background-color: azure;
+}
+
+#big-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    width: 80vw;
+    height: 80vh;
+    
+    background-color: coral;
+}
+
+#big-header {
+font-size: 7vh;
+}
+
+#small-box {
+    display: flex;
+    justify-content: space-around;
+
+    width: 15vw;
+}
+
+#smaller-box {
+    display: flex;
+    justify-content: space-around;
+
+    width: 15vw;
+}
