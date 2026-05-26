@@ -8,12 +8,15 @@ let plus = document.getElementById("increase-step-size");
 let minus = document.getElementById("decrease-step-size");
 let one = document.getElementById("reset-step-size");
 
+let uwu = new Audio('audio/uwu-soundeffect.mp3')
+
 let number = 0;
 let x = 1;
 
 reset.addEventListener("click", () => {
     number = 0;
     numberDisplay.innerText = number;
+    uwu.play()
 })
 
 increase.addEventListener("click", () => {

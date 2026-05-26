@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Nabla;
+    src: url('fonts/Nabla/Nabla-Regular-VariableFont_EDPT\,EHLT.ttf');
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -18,11 +23,12 @@ body {
     width: 80vw;
     height: 80vh;
     
-    background-color: coral;
+    background-color: darkseagreen;
 }
 
 #big-header {
-font-size: 7vh;
+font-size: 10vh;
+font-family: Nabla;
 }
 
 #small-box {
@@ -37,4 +43,18 @@ font-size: 7vh;
     justify-content: space-around;
 
     width: 15vw;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    height: 3.5vh;
+    width: 4vw;
+    border: 0.2rem coral double;
+    background-color: antiquewhite;
+    color: seagreen;
+    border-radius: 4px;
 }
